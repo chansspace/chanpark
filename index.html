@@ -1,4 +1,14 @@
-<? include 'common/head.html'; ?>
+<script src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript">   
+$(document).ready( function() {
+
+$("#header").load("common/header.html");
+$("#footer").load("common/foot.html");
+
+});
+</script>
+
+<div id="header"></div>
 
 <!-- Swiper CSS/JS -->
 <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
@@ -47,4 +57,4 @@
         });
     </script>
 </body>
-<? include 'common/foot.html'; ?>
+<div id="foot"></div>
